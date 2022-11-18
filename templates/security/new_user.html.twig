@@ -1,0 +1,14 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}New Utilisateur{% endblock%}
+
+{% block body %}
+    <h1>Create New Utilisateur</h1>
+    
+{{ form_start(form, {'attr' : {'id' : 'new_edit_utilisateur'}}) }}
+
+    <div class="col-12">
+            {{ form_label(form.username) }}
+            {{ form_widget(form.username) }}
+    </div>O
+    
